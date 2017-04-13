@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Karen's Blog Site</title>
+    <!-- Insert bootstrap CSS link here, before your own stylesheets. -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    <!-- nav bar-->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Karen's Travel Blog</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span> </a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Articles by Year<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">2017</a></li>
+            <li><a href="#">2016</a></li>
+            <li><a href="#">2015</a></li>
+          </ul>
+        </li>
+        <li><a href="#"><span class="glyphicon glyphicon-plane"></span> Travel Tips</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-camera"></span> Photos</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-send"></span> Contact Us</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> About Us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>   <!-- nav bar end-->
+<!-- Add Caroulsel-->
+    <!-- Columns sections-->
+    <div class="container-fluid">
+      <h1 class="head">Where are we off to next?</h1>
+      <h2 class="desc">Tips, Tricks, &amp; Know How </h2>
+      <div class="row">
+    <div class="col-xs-6 col-lg-5" style="background-color:gray;">
+      <h1> Blog Entry March 2017: London</h1>
+      <p><img src="images/stpauls2.jpg" class="stpauls" alt="St. Paul's Catherdral"/>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac massa ut sem ornare scelerisque eget in leo. Morbi sit amet viverra lorem. Fusce feugiat urna quis tortor egestas, vel venenatis ligula efficitur. Nulla facilisi. Nunc ac aliquet lorem. Nullam ultrices, libero a blandit mollis, leo lectus commodo urna, id vestibulum urna orci et elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam eu bibendum sapien. Nulla facilisi. Ut condimentum sed turpis sit amet tempus. Phasellus sodales fringilla mi, non fringilla nisi volutpat sed. Etiam eget tempus mi, nec euismod enim. <img src="images/traflager.jpg" class="trafalger" alt="Trafalger Square"/>Praesent condimentum vel metus ullamcorper pulvinar. Praesent eu massa quis nunc bibendum varius. Aliquam blandit neque sit amet placerat pretium. Integer sagittis arcu consectetur risus volutpat, vel fringilla nisi vestibulum. Morbi leo nisl, fringilla ac ex in, molestie vestibulum velit. Suspendisse sit amet efficitur mauris, vitae ultricies leo. Vestibulum velit magna, pulvinar non turpis quis, pellentesque porttitor ligula. Etiam pretium at metus in pulvinar. Cras sit amet tincidunt massa, at sodales lorem. In at libero libero.
+      </p>
+      </div>
+    <div class="col-xs-3 col-lg-4" style="background-color:pink;"><h1> Karen's Travel Tips</h1>
+      <p>Pellentesque orci nulla, bibendum et mauris id, mattis feugiat quam. Nam nec condimentum erat. Nullam euismod lorem arcu, sed dictum velit malesuada eget. Nulla suscipit dolor nec laoreet facilisis. Etiam non enim nec enim feugiat luctus. Suspendisse euismod libero eget egestas dignissim. Duis ultrices purus et neque maximus, sodales molestie purus placerat. In hac habitasse platea dictumst. Ut vitae vestibulum libero. Phasellus rutrum, mi et commodo tempus, tortor nibh vulputate tellus, a bibendum turpis metus quis libero. Aenean bibendum dolor risus, eget luctus orci pellentesque quis.
+      </p>
+    </div>
+    <div class="col-xs-3 col-lg-3" "col3" style="background-color: lavenderblush;"> <h3>Book Your Next Trip With Us!</h3>
+      <h4>Area of Interest:</h4>
+      <!-- input nested inside label -->
+       <label><input type="radio" name="location" checked/> Central America</label><br/>
+       <label><input type="radio" name="location"/> Europe</label><br />
+       <label><input type="radio" name="location"/> Canada</label>
+       <!--add line break-->
+       <h4>Date of Travel:</h4>
+  <input type="date" value=""/>
+  <h4>Budget:</h4>
+  <select>
+    <option >Prima(Donna)</option>
+    <option selected>Middle of the Road</option>
+    <option>Hostels, Please</option>
+  </select>
+    </div>
+  </div>
+<!--hold for now
+  <div class="row">
+    <div class="col-xs-6 col-md-10" style="background-color:lavenderblush;">.col-xs-6 .col-md-10</div>
+    <div class="col-xs-6 col-md-2" style="background-color:lightgrey;">.col-xs-6 .col-md-2</div>
+  </div>
+  <div class="row" style="background-color:lightcyan;">
+    <div class="col-xs-6">.col-xs-6</div>
+    <div class="col-xs-6">.col-xs-6</div>
+  </div> -->
+    <div class="container">
+  <div class="panel panel-default">
+    <div class="panel-footer"><h5> &copy; 2017 Karen Khalifah LLC
+      <a href="mailto:karen@travel.com">Contact Us</a>
+      <a href="http://www.nationalgeographic.com/" target="_blank">National Geographic</a> </h5>
+    </div>
+  </div>
+</div>
+
+    <!-- Include jQuery JavaScript first, then bootstrap JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

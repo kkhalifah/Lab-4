@@ -1,0 +1,36 @@
+/* stylesheet for Bootstrap*/
+
+
+.head {
+  margin: 100px 0px 0px 50px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+.desc {
+  text-align: center;
+  background-color: teal;
+  color: white;
+}
+a:hover {
+    color: yellow;
+}
+img.stpauls {
+  /* Rotate image   -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+     transform: rotate(90deg);*/
+  width: 100px;
+  float: right;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+img.trafalger {
+  width: 300px;
+  float: left;
+  margin-right: 15px;
+  margin-top: 20px;
+}
+.col3 {
+  height: 800px;
+}
